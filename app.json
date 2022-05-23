@@ -63,7 +63,7 @@
       "N8N_SMTP_SENDER": {
         "description": "SMTP sender address",
         "value": 0
-      },
+      }
     },
     "formation": {
       "web": {
