@@ -43,7 +43,19 @@
       "WEBHOOK_URL": {
         "description": "Your app could be published to any domain, without specifying n8n will think that it's hosted on localhost (and it could break some scenarions ",
         "value": "https://<appname>.herokuapp.com"
-      }
+      },
+      "N8N_OWNER_EMAIL": {
+        "description": "Owner email",
+        "value": "someone@test.com"
+      },
+      "N8N_OWNER_PASSWORD": {
+        "description": "Owner password",
+        "value": "pass"
+      },
+      "N8N_SMTP_PASS": {
+        "description": "SMTP password",
+        "value": 0
+      },
     },
     "formation": {
       "web": {
