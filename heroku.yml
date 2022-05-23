@@ -7,7 +7,10 @@ setup:
         N8N_BASIC_AUTH_ACTIVE: true
         N8N_BASIC_AUTH_USER: user
         N8N_BASIC_AUTH_PASSWORD: pass
-
+        N8N_SMTP_HOST: smtp.postmarkapp.com
+        N8N_SMTP_PORT: 2525
+        N8N_SMTP_SSL: false
+        EXECUTIONS_DATA_PRUNE: true
 build:
     docker:
         web: Dockerfile
