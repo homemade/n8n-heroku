@@ -52,8 +52,16 @@
         "description": "Owner password",
         "value": "pass"
       },
+      "N8N_SMTP_USER": {
+        "description": "SMTP user",
+        "value": 0
+      },
       "N8N_SMTP_PASS": {
         "description": "SMTP password",
+        "value": 0
+      },
+      "N8N_SMTP_SENDER": {
+        "description": "SMTP sender address",
         "value": 0
       },
     },
