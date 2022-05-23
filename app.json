@@ -63,6 +63,22 @@
       "N8N_SMTP_SENDER": {
         "description": "SMTP sender address",
         "value": 0
+      },
+      "N8N_SMTP_HOST": {
+        "description": "SMTP host",
+        "value": "smtp.host"
+      },
+      "N8N_SMTP_PORT": {
+        "description": "SMTP port",
+        "value": "2525"
+      },
+      "N8N_SMTP_SSL": {
+        "description": "SMTP ssl enabled",
+        "value": "false"
+      },
+      "EXECUTIONS_DATA_PRUNE": {
+        "description": "Delete old executions",
+        "value": "true"
       }
     },
     "formation": {
