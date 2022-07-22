@@ -15,4 +15,4 @@ build:
     docker:
         web: Dockerfile
     config:
-        N8N_VERSION: 0.174.0
+        N8N_VERSION: 0.187.2
